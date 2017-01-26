@@ -22,3 +22,16 @@ footer {
   display: none;
   }
 }
+
+h2 {
+  text-align: center;
+  text-shadow: 2px 2px 8px
+}
+
+#ext{
+  font-weight: bold;
+}
+
+.well{
+  margin: 15px;
+}
