@@ -7,7 +7,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/favicon.png" type="image/png">
 </head>
 <body>
 
@@ -19,20 +21,24 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">OCD</a>
+      <a class="navbar-brand" href="index.html">OCDetailing</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="services(1).html">Services</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
         <li><a href="packages.html">Packages</a></li>
         <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.php">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="deal.php">Package of the Month</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div id="myCarousel" class="carousel slide" data-ride="carousel" >
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -44,24 +50,24 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="frs copy.jpg" alt="Image">
+        <img src="images/banner1.jpg" alt="Image">
         <div class="carousel-caption">
-          <h3>Professional Service</h3>
+          <h3>Where others stop, I begin</h3>
         </div>
       </div>
 
       <div class="item">
-        <img src="bmw.JPG" alt="Image">
+        <img src="images/banner2.jpg" alt="Image">
         <div class="carousel-caption">
-          <h3> Highest Quality Work</h3>
+          <h3>Highest Quality Work</h3>
         </div>
       </div>
 
       <div class="item">
-        <img src="OCD Pictures\IMG_0213.JPG" alt="Image">
+        <img src="images/banner3.jpg" alt="Image">
     </div>
       <div class="item">
-        <img src="OCD Pictures\IMG_3971.JPG" alt="Image">
+        <img src="images/banner4.jpg" alt="Image">
       </div>
   </div>
 
@@ -77,27 +83,39 @@
 </div>
 
 <div class="container text-center">
-  <div class="row">
+  <h2>Call or Text 803-553-9555</h2>
+  <div class="row" id="panels">
     <div class="col-sm-4">
-      <img src="coyote.gif" class="img-responsive" style="width:100%" alt="Image">
+      <img src="images/panel1.jpg" class="img-responsive" style="width:100%" alt="Image">
     </div>
     <div class="col-sm-4">
-      <img src="mk4.JPG" class="img-responsive" style="width:100%" alt="Image">
+      <img src="images/panel2.jpg" class="img-responsive" style="width:100%" alt="Image">
     </div>
     <div class="col-sm-4">
       <div class="well">
-       <p>Want to set up an appointment?</p>
-       <p>Call/Text: 803-553-9555</p>
+       <h4>Ask about Ceramic Coating</h4>
+       <p>In order to achieve maximum protection and shine as pictured to the left, ask about getting your car ceramic coated.</p>
       </div>
       <div class="well">
-       <p>Check us out on Instagram! @ocdetailing.sc</p>
+       <h4 style="margin-top: 5px;">Check us out on Social Media</h4>
+       <ul class="list-inline list-social">
+                <li class="social-instagram" style="font-size:36px">
+                    <a href="https://www.instagram.com/optimumcaredetailing/"><i class="fa fa-instagram" style="color:black;"></i></a>
+                </li>
+                <li class="social-twitter" style="font-size:36px">
+                    <a href="https://www.twitter.com/OCDetailingSC"><i class="fa fa-twitter" style="color:black;"></i></a>
+                </li>
+                <li class="social-facebook" style="font-size:36px">
+                    <a href="https://www.facebook.com/optimumcare.detailing.1"><i class="fa fa-facebook" style="color:black;"></i></a>
+                </li>
+          </ul>
       </div>
     </div>
   </div>
 </div><br>
 
 <footer class="container-fluid text-center">
-  <p>OCDetailing</p>
+  <p>OCDetailing &copy; 2017</p>
 </footer>
 
 </body>

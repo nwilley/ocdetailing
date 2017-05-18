@@ -3,7 +3,22 @@
   margin-bottom: 0;
   border-radius: 0;
 }
-
+.navbar-inverse .navbar-brand {
+    color: #FFF;
+}
+.well {
+    margin-bottom: 23px;
+    padding: 10px;
+}
+@media only screen and (max-width: 1000px) {
+    .item.active {
+      height: auto;
+    }
+}
+.carousel-caption {
+  color: #FFF;
+  text-shadow: none;
+}
 /* Add a gray background color and some padding to the footer */
 footer {
   background-color:;
@@ -32,10 +47,6 @@ h2 {
   font-weight: bold;
 }
 
-.well{
-  margin: 15px;
-}
-
 img {
   display: block;
   margin: auto;
@@ -54,6 +65,9 @@ textarea{
 }
 button{
   margin: 20px;
+}
+div#panels {
+  padding-top: 20px;
 }
 
 .item{
